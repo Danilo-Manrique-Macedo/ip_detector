@@ -1,0 +1,19 @@
+[package]
+name = "ip_detector"
+version = "0.1.0"
+edition = "2021"
+description = "Um simples detector de IP público feito em RUST"
+[dependencies]
+reqwest = { version = "0.12.5", features = ["blocking"] }
+clearscreen= {version = "2.0.1"}
+[package.metadata.bundle]
+# The name of the application
+name = "ip_detector"
+# The version of the application
+version = "0.1.0"
+# The authors of the application
+authors = ["Danilo Manrique Macedo"]
+# The application's homepage
+homepage = "https://github.com/Danilo-Manrique-Macedo/danilo-s-junk/tree/main"
+# The application's description
+description = "Um simples detector de ip público feito em RUST!"
